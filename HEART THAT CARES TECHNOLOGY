@@ -1,0 +1,191 @@
+  }<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heart That Cares Technology</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 20px 15px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      color: #38bdf8;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1rem;
+      color: #a5b4fc;
+    }
+    header .contact {
+      margin-top: 8px;
+      font-size: 1.1rem;
+      color: #7dd3fc;
+    }
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .intro h2 {
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+      color: #7dd3fc;
+    }
+    .intro p {
+      font-size: 1.15rem;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #cbd5e1;
+    }
+    /* Services Ribbon */
+    .services-ribbon {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 40px 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    .services-ribbon h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 35px;
+      color: #38bdf8;
+      letter-spacing: 2px;
+    }
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+    .service-item {
+      background: #0f172a;
+      border-radius: 10px;
+      padding: 20px 25px;
+      flex: 1 1 250px;
+      box-shadow: 0 4px 8px rgb(0 0 0 / 0.4);
+      transition: transform 0.3s ease;
+    }
+    .service-item:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 15px rgb(0 0 0 / 0.6);
+    }
+    .service-item h3 {
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+      color: #7dd3fc;
+    }
+    .service-item p {
+      font-size: 1rem;
+      line-height: 1.4;
+      color: #cbd5e1;
+    }
+    @media (max-width: 600px) {
+      .services-list {
+        flex-direction: column;
+        align-items: center;
+      }
+      .service-item {
+        max-width: 90%;
+      }
+    }
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9rem;
+      color: #64748b;
+      background-color: #1e293b;
+      letter-spacing: 0.5px;
+    }
+  /* </style> */
+</head>
+<body>
+  <header>
+    <h1>Heart That Cares Technology</h1>
+    <p>Behind Ohams Lodge, Dozie Way, Umuahia</p>
+    <p class="contact">Call us: <a href="tel:+2348065604518" style="color:#7dd3fc; text-decoration:none;">08065604518</a></p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to Heart That Cares Technology</h2>
+      <p>Your trusted cybercafe and cybersecurity hub offering expert tech solutions, cutting-edge security services, and reliable computer support tailored for you.</p>
+    </section>
+
+    <section class="services-ribbon" id="services">
+      <h2>Our Cybersecurity & Tech Services</h2>
+      <div class="services-list">
+        <div class="service-item">
+          <h3>Network Security Solutions</h3>
+          <p>Protect your network with advanced firewall setup, intrusion detection, and secure VPN configurations.</p>
+        </div>
+        <div class="service-item">
+          <h3>Penetration Testing</h3>
+          <p>Comprehensive security audits and ethical hacking to identify vulnerabilities before attackers do.</p>
+        </div>
+        <div class="service-item">
+          <h3>Data Encryption Services</h3>
+          <p>Implement strong encryption protocols to safeguard your sensitive data both at rest and in transit.</p>
+        </div>
+        <div class="service-item">
+          <h3>Incident Response & Recovery</h3>
+          <p>Rapid detection and remediation of security breaches to minimize damage and restore operations.</p>
+        </div>
+        <div class="service-item">
+          <h3>Malware & Virus Removal</h3>
+          <p>Professional scanning, removal, and protection solutions to keep your devices malware-free.</p>
+        </div>
+        <div class="service-item">
+          <h3>Secure Cloud Solutions</h3>
+          <p>Configure and maintain secure cloud environments ensuring compliance and data protection.</p>
+        </div>
+        <div class="service-item">
+          <h3>Cybersecurity Training</h3>
+          <p>Employee education programs to raise awareness and reduce risk from phishing and social engineering.</p>
+        </div>
+        <div class="service-item">
+          <h3>IoT Device Security</h3>
+          <p>Protect your smart devices and connected infrastructure from unauthorized access and threats.</p>
+        </div>
+        <div class="service-item">
+          <h3>Backup & Disaster Recovery</h3>
+          <p>Reliable backup solutions and disaster recovery planning to keep your business running in any scenario.</p>
+        </div>
+        <div class="service-item">
+          <h3>Identity & Access Management</h3>
+          <p>Implement robust authentication, authorization, and access policies to safeguard your resources.</p>
+        </div>
+        <div class="service-item">
+          <h3>Security Compliance Consulting</h3>
+          <p>Ensure your business meets regulatory standards such as GDPR, HIPAA, PCI-DSS, and more.</p>
+        </div>
+        <div class="service-item">
+          <h3>Custom Security Solutions</h3>
+          <p>Tailored cybersecurity strategies and implementations designed specifically for your needs.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Heart That Cares Technology — Call: <a href="tel:+2348065604518" style="color:#64748b; text-decoration:none;">08065604518</a> — All rights reserved.
+  </footer>
+</body>
+</html>
